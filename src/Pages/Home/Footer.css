@@ -1,0 +1,28 @@
+.footer--container {
+    position: relative;
+    width: 100%;
+    background-color: #f8f9fa; 
+    padding: 2px 0;
+    overflow: hidden; 
+  }
+  
+  .scrolling-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px; 
+    animation: scroll 20s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .scrolling-icons > * {
+    flex-shrink: 0; 
+  }

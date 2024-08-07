@@ -34,9 +34,9 @@ function Navbar() {
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
-      <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
-      </div>
+      <a href="/">
+        <img src="./img/geb.jpeg" alt="Gebeyehu" style={{height:"50px"}} />
+      </a>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
@@ -44,6 +44,7 @@ function Navbar() {
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
+
       </a>
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
@@ -72,7 +73,7 @@ function Navbar() {
               to="MyPortfolio"
               className="navbar--content"
             >
-              Portfolio
+              myportifolio
             </Link>
           </li>
           <li>
@@ -83,29 +84,22 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="AboutMe"
+              to="mySkills"
               className="navbar--content"
             >
-              About Me
+              Experiances
             </Link>
           </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="testimonial"
-              className="navbar--content"
-            >
-              Testimonials
-            </Link>
-          </li>
-        </ul>
-      </div>
-      <Link
+          
+           <button 
+         onClick={() => window.open('./img/gebeyhuCv.pdf', '_blank')} 
+         className="btn"
+          >
+           Show Resume
+           </button>
+            </ul>
+           </div>
+         <Link
         onClick={closeMenu}
         activeClass="navbar--active-content"
         spy={true}

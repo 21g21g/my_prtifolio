@@ -4,13 +4,13 @@
       "id": "1",
       "src": "./img/product-chain-1.png",
       "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "I am a proficient web developer with a robust set of skills in HTML, CSS, JavaScript, React, and Vue js."
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
       "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "I am a versatile developer with extensive expertise in Go (Golang), Node.js, MongoDB, and PostgreSQL."
     },
     {
       "id": "3",
@@ -28,50 +28,25 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "src": "./img/ecoo.jpg",
+      "title": "onlineShoping",
+      "description": "In the fast-paced digital age, the convenience of online shopping has revolutionized the way we purchase goods, including clothing With the emergence of e-commerce platforms, consumers now have access to a vast array of fashion choices from the comfort of their own homes",
       "link": "View In Github"
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "src": "./img/intern.jpg",
+      "title": "Internship Portal",
+      "description": "The Internship Portal is a dynamic platform designed to bridge the gap between students and companies. This project facilitates seamless connections, enabling students to find valuable internship opportunities while helping companies discover fresh talent. With user-friendly features and a focus on accessibility, the Internship Portal enhances the internship search experience, fostering mutually beneficial relationships between students and businesses.",
       "link": "View In Github"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "src": "./img/tourism.jpg",
+      "title": "ExploreEthiopia",
+      "description": "ExploreEthiopia is an engaging platform dedicated to showcasing the rich cultural heritage, breathtaking landscapes, and diverse attractions of Ethiopia. This project provides users with detailed travel guides, historical insights, and curated itineraries, making it easy for tourists and locals alike to discover and explore the beauty of Ethiopia.",
       "link": "View In Github"
-    }
-  ],
-  "testimonial": [
-    {
-      "id": "1",
-      "count": "5",
-      "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
-    },
-    {
-      "id": "2",
-      "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kristin Watson",
-      "author_designation": "Louis Vuitton"
-    },
-    {
-      "id": "3",
-      "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kathryn Murphy",
-      "author_designation": "McDonald's"
     }
   ]
+ 
 }

@@ -1,0 +1,36 @@
+.hero--section--img {
+    position: relative;
+    max-width: 80%; /* Adjusted to decrease the overall size */
+    margin: 0 auto; /* Center the image */
+    overflow: hidden;
+    border-radius: 50%; /* Make the image rounded */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hero--section--img img {
+    width: 100%;
+    border-radius: 50%; /* Make the image rounded */
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .hero--section--img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1));
+    border-radius: 50%; /* Match the rounded shape */
+  }
+  
+  .hero--section--img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hero--section--img:hover img {
+    transform: scale(1.05);
+  }
